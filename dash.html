@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Dashboard</title>
+        <title>DoBoy Dashboard</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -22,7 +22,7 @@
         <header>
           <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
             <div class="container-fluid">
-              <a class="navbar-brand" href="#" ><img src="index-assets\Untitled design (6).png" style="height: 10%; width: auto;"></a>
+              <a class="navbar-brand" href="#" ><img src="index-assets\Untitled design (6).png" style="height: 100px; width: auto;"></a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -49,7 +49,7 @@
                       <!-- Dropdown container -->
 
         </header>
-        <main>
+       <!-- <main>
           <body>
             <div class="actions-container col-2 mt-5 p-5" >
               <h1>hello World</h1>
@@ -90,7 +90,130 @@
             </div>
             </div>
           </body>
-        </main>
+        </main>-->
+
+        <body>
+
+
+          <!-- TASK ACTIONS SECTION -->
+          <div class="container-fluid bg-light  rounded" style="padding: 0; background-color: white; ">
+            <div class="row" style="background-color: #ffffff;">
+              <div class="col-lg-3 col-md-3 mt-3 col-sm-3" style="background-color: #ffffff;">
+                <div class="actions-container col pb-3  rounded" style="position: sticky; top: 3%; text-align: center; background-color:rgb(230, 230, 230);" >
+                  <h3 class="mt-2 pt-4 rounded" style="color:rgb(0, 0, 0); align-self: center;" >Task Options</h3>
+                   <div class="create_new row mt-3 ml-3 py-1 pl-3 " style="width: 100%; display:flex; justify-content: center; border-left: 2px solid black">
+                    <button class="btn  rounded ml-3" style="width: 70%; height: auto;">Create New Project</button>
+                   </div>
+                   <div class="edit-existing row mt-3 py-1 ml-3" style="width: 100%; display:flex; justify-content: center;">
+                    <button class="btn rounded" style="width: 70%">View Existing Projects</button>
+                   </div>
+                   <div class="view_tasks row mt-3 ml-3 py-1 ml-3" style="width: 100%; display:flex; justify-content: center;">
+                    <button class="btn rounded" style="width: 70%">Filter Projects</button>
+                   </div>
+                   <div class="view_completed_tasks row mt-3 ml-3 py-1 ml-3" style="width: 100%; display:flex; justify-content: center; ">
+                    <button class="btn  rounded" style="width: 70%">Edit A Project</button>
+                   </div>
+                </div>   
+              </div>
+              
+              <!-- TASK DASHBOARD SECTION -->
+              <div class="col-md-9 col-lg-9 col-sm-9" style="padding-left: 0;">
+                <main class="p-3" style="background-color: #ffffff; padding-left: 0;">
+                  <h3 style="text-shadow: 1px 1px 1px #47D5C7 ">Task Dashboard</h3>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-6 py-4 p-4  mt-4 mb-4">
+                        <div class="card" style="box-shadow: 0px 0px 10px;">
+                          <div class="card-body">
+                            
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1"><h5>Complete This Project</h5></label>
+                            </div>
+
+                          </form>
+                            <p class="card-text text-primary">Status : Open</p>
+                            <p class="card-text text-danger">Priority : high</p>
+                            <button type="button" class="btn btn-primary" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">View Task Detail</button>
+                           <!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>-->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 p-4 ml-0 mt-4 mb-4">
+                        <div class="card" style="box-shadow: 0px 0px 10px;">
+                          <div class="card-body">
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1"><h5>Delete my Arch Enemies</h5></label>
+                            </div>
+
+                            <p class="card-text text-primary">Status : Open</p>
+                            <p class="card-text text-warning">Priority : Medium</p>
+                            <a href="#" class="btn btn-primary">View Task Detail</a>
+                          </div>
+                        </div>
+                      </div>
+  
+                      <div class="col-sm-6 py-4 ml-0 mt-4 mb-4">
+                        <div class="card " style="box-shadow: 0px 0px 10px;">
+                          <div class="card-body">
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1"><h5>Product Launch</h5></label>
+                            </div>
+                            <p class="card-text text-success">Status : Closed</p>
+                            <p class="card-text text-warning">Priority : Medium</p>
+                            <a href="#" class="btn btn-primary">View Task Detail</a>
+                          </div>
+                        </div>
+                      </div>
+  
+                      <div class="col-sm-6 py-4 ml-0 mt-4 mb-4">
+                        <div class="card" style="box-shadow: 0px 0px 10px;">
+                          <div class="card-body">
+                            <h5 class="card-title">Task Management Project</h5>
+                            <p class="card-text text-primary">Status : Open</p>
+                            <p class="card-text text-secondary">Priority : Low</p>
+                            <a href="#" class="btn btn-primary">View Project Details</a>
+                          </div>
+                        </div>
+                      </div>
+  
+                      <div class="col-sm-6 py-4 ml-0 mt-4 mb-4">
+                        <div class="card" style="box-shadow: 0px 0px 10px;">
+                          <div class="card-body">
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1"><h5>Develop Ecommerce API</h5></label>
+                            </div>
+                            <p class="card-text text-primary">Status : Open</p>
+                            <p class="card-text text-secondary">Priority : Low</p>
+                            <a href="#" class="btn btn-primary">View Project Details</a>
+                          </div>
+                        </div>
+                      </div>
+  
+                      <div class="col-sm-6 py-4 ml-0 mt-4 mb-4">
+                        <div class="card" style="box-shadow: 0px 0px 10px;">
+                          <div class="card-body">
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1"><h5>Build Notion</h5></label>
+                            </div>
+                            <p class="card-text text-priamry">Status : Open</p>
+                            <p class="card-text text-secondary">Priority : Low</p>
+                            <a href="#" class="btn btn-primary">View Project Details</a>
+                          </div>
+                        </div>
+                      </div>
+                       
+                    </div>
+                    </div>
+                </main>
+              </div>
+             </div>
+             </div>
+             </body> 
         
         <footer class="py-3 text-dark p-2 rounded-2" style="background: linear-gradient(pink,purple)";>
           <!-- place footer here -->
@@ -139,16 +262,32 @@
     </div>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
 
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            // Enabling the popover EVERYWHERE
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
+    
+          </script>
+          <script>
+          $(function () {
+              $('[data-toggle="popover"]').popover()
+          })
+        </script>       
         <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"
+    ></script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"
+    ></script>
     </body>
 </html>
