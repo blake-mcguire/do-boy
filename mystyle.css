@@ -36,3 +36,9 @@
     background-color: #47D5C7;
     border-color: #47d5c7ab; 
   }
+  .testimonial-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
